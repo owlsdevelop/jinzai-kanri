@@ -21,4 +21,5 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             whoami
+            cd ${{ secrets.DEPLOY_DIR }}
             pwd > test.txt
