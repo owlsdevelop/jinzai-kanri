@@ -21,4 +21,4 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             whoami
-            pwd
+            pwd > test.txt
